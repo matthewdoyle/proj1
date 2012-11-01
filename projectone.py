@@ -27,7 +27,7 @@ for x in range(0,3):
                #robot.right.at.set_torque(.25)
                #robot.left.at.set_torque(.25)
             continue
-         elif(0<distancey<0.25 and .-25<distancex or -.25<distancey<0 and -.25<distancex):            #left only
+         elif(0<distancey<0.25 and .-25<distancex or -.25<distancey<0 and -.25<distancex):  #left only
            while(len(placer)==starting_length):
                #robot.right.at.set_torque(-.25)
                #robot.left.at.set_torque(-.25)
